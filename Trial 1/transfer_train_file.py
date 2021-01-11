@@ -24,16 +24,16 @@ def train_data_generation(filename):
     mean_x = np.mean(train_data, axis = 1)
     std_x = np.std(train_data, axis = 1)
 
-    for i in range(train_data.shape[0]):
-        for j in range(train_data.shape[1]):
-            if std_x[i] != 0:
-                train_data[i, j] = (train_data[i, j] - mean_x[i]) / std_x[i]
+    for i in range(n_parameters):
+        if std_x[i] != 0:
+            train_data[i, :] = (train_data[i, :] - mean_x[i])/std_x[i]
 
     final_data = []
+
 
     for j in range(train_data.shape[1] - n_series):
         key = train_data[:, j:j+n_series].reshape(18*9, )
         value = train_data[target_row, j+n_series]
         final_data.append([key, value])
 
-    return final_data
+    return final_data, [mean_x, std_x]
