@@ -31,4 +31,4 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
   - Note: TensorFlow V2.3 is used with command image_dataset_from_directory. The command has a bug ([link](https://github.com/tensorflow/tensorflow/issues/44752)), which cannot load label lists. Images should be manually seperated by classes into different subdirectories. 
 - Five layers of convolutional layers + max pooling are used, with 3 layers of regular layers after flatten;
 - After 30 epoches, training accuracy is 96.9%, and validation error is 43.5%. The reason why validation error is low needs further study.
-<div align=center><img width="800" height="600" src="https://github.com/hansxiao7/ML2020/blob/main/HW3/Accuracy.jpg"/></div>
+<div align=center><img width="600" height="450" src="https://github.com/hansxiao7/ML2020/blob/main/HW3/Accuracy.jpg"/></div>
