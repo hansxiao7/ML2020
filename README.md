@@ -24,7 +24,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
     - Training loss: 11.4%
     - Validation loss: 11.9%
   - For this data set, since the number of data sets is relatively large, the discriminative method yields a smaller loss for both training and validation. When the number of training data is small, the generative model may yield a better result because of the assumption of probability distribution.
-## HW2 - Image Classification with CNN
+## HW3 - Image Classification with CNN
 - Use Convolutional Neural Network for image classification. 11 different classes of images are given.
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw3/overview);
 - TensorFlow is used for image processing and model training;
