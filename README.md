@@ -44,4 +44,4 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - In each training, 1,000 unlabelled data will be predicted. After considering possibility threshold, newly labelled data are added into original training data set for training. In this project, 500~600 cases are added to the training set in each epoch.
 - After 10 epoches of learning without using unlabelled data, the accuracy is 97.3% for training data, and is 74.7% for validation data;
 - After 10 epoches of self-learning with considering 1,000 unlabelled data, the accuracy is 97.5% for the training data, and is 74.5% for validation data.
-
+- CoLab link: [here](https://colab.research.google.com/drive/1pODwohWg5TmFkb5tB-96fvUYoq9R-K3c?usp=sharing)
