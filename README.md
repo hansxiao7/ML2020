@@ -10,6 +10,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
   - [Method 1](https://github.com/hansxiao7/ML2020/tree/main/HW1/Trial%201)
   - [Method 2](https://github.com/hansxiao7/ML2020/tree/main/HW1/Trial%202)
   - [Sample given by Hung-yi Lee](https://colab.research.google.com/drive/131sSqmrmWXfjFZ3jWSELl8cm0Ox5ah3C)
+
 ## HW2 - 2-class Classification
 - Use a Generative Model (Gaussian distribution) and a Discriminative Model (Logistic regression) to accomplish a 2-class classfication; 
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw2/overview);
@@ -24,6 +25,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
     - Training loss: 11.4%
     - Validation loss: 11.9%
   - For this data set, since the number of data sets is relatively large, the discriminative method yields a smaller loss for both training and validation. When the number of training data is small, the generative model may yield a better result because of the assumption of probability distribution.
+
 ## HW3 - Image Classification with CNN
 - Use Convolutional Neural Network for image classification. 11 different classes of images are given.
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw3/overview);
@@ -32,3 +34,14 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - Five layers of convolutional layers + max pooling are used, with 3 layers of regular layers after flatten;
 - After 30 epoches, training accuracy is 96.9%, and validation error is 43.5%. The reason why validation error is low needs further study.
 <div align=center><img width="600" height="450" src="https://github.com/hansxiao7/ML2020/blob/main/HW3/Accuracy.jpg"/></div>
+
+## HW4 - Text Classification with RNN and Semi-Supervised Learning (self learning)
+- Use RNN and self learning for text classification. Output is a binary class, with 1 as positive sentence and 0 for negative sentence;
+- Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw4);
+- 70% of labelled texts are used as the training data, and the remaining 30% labelled texts are used for validation;
+- TensorFlow is used for model building and training. Bidirectional LSTM layer is applied as the RNN structure;
+- For self learning, 0.8 is chosen as the threshold to get pseudo-labels for unlabelled data. For each unlabelled data, if output is larger than 0.8, the data will be labelled as 1; if the output is smaller than 0.2, the data will be labelled as 0. Remaining data will not be labelled/used for training. 
+- In each training, 1,000 unlabelled data will be predicted. After considering possibility threshold, newly labelled data are added into original training data set for training. In this project, 500~600 cases are added to the training set in each epoch.
+- After 10 epoches of learning without using unlabelled data, the accuracy is 97.3% for training data, and is 74.7% for validation data;
+- After 10 epoches of self-learning with considering 1,000 unlabelled data, the accuracy is 97.5% for the training data, and is 74.5% for validation data.
+
