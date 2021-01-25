@@ -1,0 +1,22 @@
+1400/1400 [==============================] - 160s 106ms/step - loss: 0.5130 - accuracy: 0.7413 - val_loss: 0.4353 - val_accuracy: 0.7974
+
+Prediction done for 1000 cases!
+1403/1403 [==============================] - 166s 118ms/step - loss: 0.3577 - accuracy: 0.8386 - val_loss: 0.4703 - val_accuracy: 0.7853
+Prediction done for 1000 cases!
+1405/1405 [==============================] - 167s 119ms/step - loss: 0.2526 - accuracy: 0.8922 - val_loss: 0.7976 - val_accuracy: 0.6755
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 167s 119ms/step - loss: 0.1752 - accuracy: 0.9283 - val_loss: 1.3701 - val_accuracy: 0.6050
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 167s 119ms/step - loss: 0.1357 - accuracy: 0.9453 - val_loss: 1.0607 - val_accuracy: 0.6956
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 168s 119ms/step - loss: 0.1103 - accuracy: 0.9554 - val_loss: 1.0634 - val_accuracy: 0.7289
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 167s 119ms/step - loss: 0.0943 - accuracy: 0.9613 - val_loss: 1.1216 - val_accuracy: 0.7438
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 166s 118ms/step - loss: 0.0825 - accuracy: 0.9671 - val_loss: 1.2178 - val_accuracy: 0.7294
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 167s 119ms/step - loss: 0.0756 - accuracy: 0.9691 - val_loss: 1.3634 - val_accuracy: 0.7273
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 167s 119ms/step - loss: 0.0669 - accuracy: 0.9724 - val_loss: 1.3644 - val_accuracy: 0.7437
+Prediction done for 1000 cases!
+1406/1406 [==============================] - 166s 118ms/step - loss: 0.0618 - accuracy: 0.9749 - val_loss: 1.4638 - val_accuracy: 0.7447

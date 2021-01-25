@@ -1,0 +1,27 @@
+
+
+model.fit(
+  train_dataset,
+  validation_data=val_dataset,
+  epochs=10
+)
+Epoch 1/10
+1400/1400 [==============================] - 197s 136ms/step - loss: 0.5100 - accuracy: 0.7475 - val_loss: 0.4346 - val_accuracy: 0.7961
+Epoch 2/10
+1400/1400 [==============================] - 185s 132ms/step - loss: 0.3742 - accuracy: 0.8347 - val_loss: 0.4740 - val_accuracy: 0.7923
+Epoch 3/10
+1400/1400 [==============================] - 184s 132ms/step - loss: 0.2734 - accuracy: 0.8849 - val_loss: 0.5813 - val_accuracy: 0.7792
+Epoch 4/10
+1400/1400 [==============================] - 185s 132ms/step - loss: 0.1822 - accuracy: 0.9252 - val_loss: 0.7714 - val_accuracy: 0.7721
+Epoch 5/10
+1400/1400 [==============================] - 185s 132ms/step - loss: 0.1321 - accuracy: 0.9466 - val_loss: 0.9624 - val_accuracy: 0.7641
+Epoch 6/10
+1400/1400 [==============================] - 185s 132ms/step - loss: 0.1109 - accuracy: 0.9556 - val_loss: 1.0521 - val_accuracy: 0.7557
+Epoch 7/10
+1400/1400 [==============================] - 189s 135ms/step - loss: 0.0954 - accuracy: 0.9616 - val_loss: 1.1709 - val_accuracy: 0.7527
+Epoch 8/10
+1400/1400 [==============================] - 182s 130ms/step - loss: 0.0832 - accuracy: 0.9664 - val_loss: 1.3377 - val_accuracy: 0.7492
+Epoch 9/10
+1400/1400 [==============================] - 181s 129ms/step - loss: 0.0724 - accuracy: 0.9713 - val_loss: 1.4463 - val_accuracy: 0.7491
+Epoch 10/10
+1400/1400 [==============================] - 179s 128ms/step - loss: 0.0653 - accuracy: 0.9734 - val_loss: 1.5235 - val_accuracy: 0.7473
