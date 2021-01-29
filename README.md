@@ -50,7 +50,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - Use the trained CNN in HW3 to build saliency maps and filter visualization;
 - Saliency map: [here](https://github.com/hansxiao7/ML2020/tree/main/HW5/Task%201%20-%20Saliency%20Map);
 - Saliency maps of two pictures are shown as examples. The first picture is a 'bread', and the second picture is a 'dairy';
-<center class="half">
+<center class="fourth">
     <img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/0_0.jpg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/saliency_map_0.jpeg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/1_29.jpg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/saliency_map_1.jpeg" width="200"/>
 </center>
 - Filter visualization: [here](https://github.com/hansxiao7/ML2020/tree/main/HW5/Task%202%20-%20Filter%20Visualization).
