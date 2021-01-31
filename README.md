@@ -55,6 +55,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 
 ## HW6 - Adversarial Attack
 - Use FGSM (Fast Gradient Sign Method) to generate adversarial images;
+- FGSM code: [here](https://github.com/hansxiao7/ML2020/blob/main/HW6/FGSM.py)
 - Pixel limit for adversarial images is set to 15 for more obvious results;
 - VGG16 is used as the proxy network;
 - The predicted label for Image 0 is ground bettle (49.1%) before attack. After attack, the label is cardigan (23.1%);
