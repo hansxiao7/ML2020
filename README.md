@@ -52,3 +52,12 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - Saliency maps of two pictures are shown as examples. The first picture is a 'bread', and the second picture is a 'dairy';
 <img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/0_0.jpg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/saliency_map_0.jpeg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/1_29.jpg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/saliency_map_1.jpeg" width="200"/>
 - Filter visualization: [here](https://github.com/hansxiao7/ML2020/tree/main/HW5/Task%202%20-%20Filter%20Visualization)
+
+## HW6 - Adversarial Attack
+- Use FGSM (Fast Gradient Sign Method) to generate adversarial images;
+- Pixel limit for adversarial images is set to 15 for more obvious results;
+- VGG16 is used as the proxy network;
+- The predicted label for Image 0 is ground bettle (49.1%) before attack. After attack, the label is cardigan (23.1%);
+<img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/images/000.png" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/attacked/0.png" width="200"/>
+- The predicted label for Image 1 is vase (49.3) before attack. After attack, the label is mosque (24.4%).
+<img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/images/001.png" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/attacked/1.png" width="200"/>
