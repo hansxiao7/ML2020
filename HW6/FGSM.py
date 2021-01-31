@@ -61,3 +61,7 @@ preds = tf.keras.applications.vgg16.decode_predictions(VGG16.predict(np.reshape(
 print(preds)
 preds = tf.keras.applications.vgg16.decode_predictions(VGG16.predict(np.reshape(attacked_image[0], (1, 224, 224, 3))) , top=5)
 print(preds)
+preds = tf.keras.applications.vgg16.decode_predictions(VGG16.predict(np.reshape(image_data[1], (1, 224, 224, 3))), top=5)
+print(preds)
+preds = tf.keras.applications.vgg16.decode_predictions(VGG16.predict(np.reshape(attacked_image[1], (1, 224, 224, 3))) , top=5)
+print(preds)
