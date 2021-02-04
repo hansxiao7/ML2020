@@ -64,3 +64,12 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - The predicted label for Image 1 is vase (49.3) before attack. After attack, the label is mosque (24.4%).
 
 <img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/images/001.png" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/attacked/1.png" width="200"/>
+
+## HW7 - Network Compression
+- This homework includes applications of network pruning, knowledge distillation, parameter quantization, and architecture design;
+- Network pruning: remove less important weights/neurons after training, then fine tune the pruned model;
+- [Knowledge distillation](https://github.com/hansxiao7/ML2020/blob/main/HW7/knowledge_distillation.py): a smaller 'student' model learns 'everything' output by the 'teacher' model, not only the final output;
+- Parameter quantization: use less bits or weight clustering to reduce the size of a model (e.g., change weights from float64 to int8);
+- [Achitecture design](https://github.com/hansxiao7/ML2020/blob/main/HW7/depthwise_pointwise_conv.py): by adding intermediate layers, the total number of parameters in a model can be reduced (e.g., depthwise & pointwise CNN);
+- In Tensorflow, [SeparableConv2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SeparableConv2D) layer can be directly used for depthwise & pointwise CNN. The code in the folder is to show how to build complicated architectures in TensorFlow.
+
