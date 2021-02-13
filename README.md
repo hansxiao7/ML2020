@@ -87,5 +87,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
       Chinese: 我沒有朋友。
     - English: what time does the movie start                                           
       Chinese: 電影什麼時候開始？
+  - Network structure:
+  <div align=center><img width="600" height="450" src="https://github.com/hansxiao7/ML2020/blob/main/HW8/Method%201%20structure.png"/></div>
 - Method 2: Attention model
 - Method 3: Transformer
