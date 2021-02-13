@@ -60,10 +60,10 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - VGG16 is used as the proxy network;
 - The predicted label for Image 0 is ground bettle (49.1%) before attack. After attack, the label is cardigan (23.1%);
 
-<img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/images/000.png" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/attacked/0.png" width="200"/>
+<div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/images/000.png" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/attacked/0.png" width="200"/></div>
 - The predicted label for Image 1 is vase (49.3) before attack. After attack, the label is mosque (24.4%).
 
-<img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/images/001.png" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/attacked/1.png" width="200"/>
+<div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/images/001.png" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW6/data/attacked/1.png" width="200"/></div>
 
 ## HW7 - Network Compression
 - This homework includes applications of network pruning, knowledge distillation, parameter quantization, and architecture design;
