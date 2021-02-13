@@ -75,8 +75,8 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 
 ## HW8 - Seq2Seq Model for Translation
 - This homework is to use different seq2seq models to translate English to Chinese;
-- Colab is used to run codes with GPU, all Colab files are uploaded [here](https://github.com/hansxiao7/ML2020/blob/main/HW8/seq2seq_teacher_forcing.ipynb)
-- Method 1: [teacher-forcing seq2seq](https://colab.research.google.com/drive/1mcveqsvBMtaSQ8WNJ1C4h4o_VCuQkgmP?usp=sharing)
+- Colab is used to run codes with GPU, all Colab files are uploaded [here](https://github.com/hansxiao7/ML2020/blob/main/HW8/seq2seq_teacher_forcing.ipynb);
+- Method 1: [Teacher-forcing seq2seq](https://colab.research.google.com/drive/1mcveqsvBMtaSQ8WNJ1C4h4o_VCuQkgmP?usp=sharing)
   - 256 LSTM units are used, with training accuray 95% after 100 epoches;
   - Some translation examples:
     - English: mary is sitting at the desk                                           
