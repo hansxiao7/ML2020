@@ -73,3 +73,19 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - [Achitecture design](https://github.com/hansxiao7/ML2020/blob/main/HW7/depthwise_pointwise_conv.py): by adding intermediate layers, the total number of parameters in a model can be reduced (e.g., depthwise & pointwise CNN);
 - In Tensorflow, [SeparableConv2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SeparableConv2D) layer can be directly used for depthwise & pointwise CNN. The code in the folder is to show how to build complicated architectures in TensorFlow.
 
+## HW8 - Seq2Seq Model for Translation
+- This homework is to use different seq2seq models to translate English to Chinese;
+- Colab is used to run codes with GPU, all Colab files are uploaded [here](https://github.com/hansxiao7/ML2020/blob/main/HW8/seq2seq_teacher_forcing.ipynb);
+- Method 1: [Teacher-forcing seq2seq](https://colab.research.google.com/drive/1mcveqsvBMtaSQ8WNJ1C4h4o_VCuQkgmP?usp=sharing)
+  - 256 LSTM units are used, with training accuray 95% after 100 epoches;
+  - Some translation examples:
+    - English: mary is sitting at the desk                                           
+      Chinese: 瑪麗的男人正在著一本書。
+    - English: i will be free in ten minutes                                          
+      Chinese: 我十分鐘後有空。
+    - English: i ve got no friends                                            
+      Chinese: 我沒有朋友。
+    - English: what time does the movie start                                           
+      Chinese: 電影什麼時候開始？
+- Method 2: Attention model
+- Method 3: Transformer
