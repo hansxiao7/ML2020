@@ -90,5 +90,19 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
       Chinese: 電影什麼時候開始？
   - Network structure:
   <div align=center><img width="600" height="300" src="https://github.com/hansxiao7/ML2020/blob/main/HW8/Method%201%20structure.png"/></div>
-- Method 2: Attention model
+- Method 2: [Attention model - Bahdanau's additive style](https://github.com/hansxiao7/ML2020/blob/main/HW8/Attention_teacher_forcing.ipynb)
+  - 256 LSTM units are used, with training accuracy 99.5% after 60 epoches;
+  - Some translation examples:
+    - English: he is tall                                              
+      Chinese: 他很高。
+    - English: hurry up and you will be in time for the bus                                      
+      Chinese: 在上快點，快點！了這快點是真的。
+    - English: he s always at home on sundays                                          
+      Chinese: 他星期日總是在家。
+    - English: i do nt know if i have the time                                        
+      Chinese: 我不知道我有時間。
+    - English: did he go to see mary                                           
+      Chinese: 他去看見瑪麗了嗎？
+  - Network structure:
+  <div align=center><img width="600" height="800" src="https://github.com/hansxiao7/ML2020/blob/main/HW8/Attention_model.png"/></div>
 - Method 3: Transformer
