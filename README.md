@@ -105,4 +105,4 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
       Chinese: 他去看見瑪麗了嗎？
   - Network structure:
   <div align=center><img width="600" height="800" src="https://github.com/hansxiao7/ML2020/blob/main/HW8/Attention_model.png"/></div>
-- Method 3: Transformer
+- Method 3: Transformer (Will do later)
