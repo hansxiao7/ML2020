@@ -119,3 +119,5 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 
 - Images output by decoders:
 <div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_6.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_7.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_9.png" width="50"/></div>
+
+- Accuracy in validation set: 70.8%
