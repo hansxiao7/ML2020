@@ -111,6 +111,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 ## HW8 - Image Autoencoder with Unsupervised Learning
 - This homework is to classify images with unlabelled data. Images are classfied with 'Natural View' and 'No Natural View';
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw9)
+- CoLab link: [here](https://github.com/hansxiao7/ML2020/blob/main/HW9/denoising_autoencoder.ipynb)
 - The De-noising autoencoder-decoder model with 2 de-convolution layers (Conv2DTranspose) is used. Image original sizes (32, 32, 3) are embedded into 128-element vectors, then transformed to 2-D vectors by t-SNE;
 - Original images:
 <div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_6.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_7.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_9.png" width="50"/></div>
