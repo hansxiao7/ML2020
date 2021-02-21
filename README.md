@@ -51,6 +51,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - Saliency map: [here](https://github.com/hansxiao7/ML2020/tree/main/HW5/Task%201%20-%20Saliency%20Map)
 - Saliency maps of two pictures are shown as examples. The first picture is a 'bread', and the second picture is a 'dairy';
 <div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/0_0.jpg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/saliency_map_0.jpeg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/1_29.jpg" width="200"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW5/Task%201%20-%20Saliency%20Map/saliency_map_1.jpeg" width="200"/></div>
+
 - Filter visualization: [here](https://github.com/hansxiao7/ML2020/tree/main/HW5/Task%202%20-%20Filter%20Visualization)
 
 ## HW6 - Adversarial Attack
@@ -107,9 +108,10 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
   <div align=center><img width="600" height="800" src="https://github.com/hansxiao7/ML2020/blob/main/HW8/Attention_model.png"/></div>
 - Method 3: Transformer (Will do later)
 
-## HW8 - Image Autoencoder with Unsupervised Learning
+## HW9 - Image Autoencoder with Unsupervised Learning
 - This homework is to classify images with unlabelled data. Images are classfied with 'Natural View' and 'No Natural View';
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw9)
+- CoLab link: [here](https://github.com/hansxiao7/ML2020/blob/main/HW9/denoising_autoencoder.ipynb)
 - The De-noising autoencoder-decoder model with 2 de-convolution layers (Conv2DTranspose) is used. Image original sizes (32, 32, 3) are embedded into 128-element vectors, then transformed to 2-D vectors by t-SNE;
 - Original images:
 <div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_6.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_7.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/original_9.png" width="50"/></div>
@@ -119,3 +121,5 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 
 - Images output by decoders:
 <div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_6.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_7.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_9.png" width="50"/></div>
+
+- Accuracy in validation set: 70.8%
