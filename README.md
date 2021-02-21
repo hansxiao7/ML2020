@@ -123,3 +123,18 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 <div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_6.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_7.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW9/output_images/decoded_9.png" width="50"/></div>
 
 - Accuracy in validation set: 70.8%
+
+
+## HW9 - Anomaly Detection
+- This homework is to detect anomaly with autoencoders. After reconstruction with the trained autoencoder, if the reconstruction error is larger than a setted threshold, the data is considered as an anomaly;
+- Squared error 200 is set as the threshold. After running, 62/10000 (0.62%) test data is considered as anomaly;
+- Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw10)
+- CoLab link: [here](https://github.com/hansxiao7/ML2020/blob/main/HW10/autoencoder_anomaly.ipynb)
+- Trained images:
+<div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/train_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/train_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/train_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/train_4.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/train_5.png" width="50"/></div>
+
+- Image considered as normal in test data:
+<div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/normal_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/normal_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/normal_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/normal_4.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/normal_5.png" width="50"/></div>
+
+- Image considered as anomaly in test data:
+<div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/anomaly_1.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/anomaly_2.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/anomaly_3.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/anomaly_4.png" width="50"/><img src="https://github.com/hansxiao7/ML2020/blob/main/HW10/images/anomaly_5.png" width="50"/></div>
