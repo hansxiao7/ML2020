@@ -125,7 +125,7 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
 - Accuracy in validation set: 70.8%
 
 
-## HW9 - Anomaly Detection
+## HW10 - Anomaly Detection
 - This homework is to detect anomaly with autoencoders. After reconstruction with the trained autoencoder, if the reconstruction error is larger than a setted threshold, the data is considered as an anomaly;
 - Squared error 200 is set as the threshold. After running, 62/10000 (0.62%) test data is considered as anomaly;
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw10)
