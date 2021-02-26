@@ -163,6 +163,10 @@ fake_output = discriminator(generated_images, training=True)
 - This home is use DaNN to train unlabelled target data with labelled source data;
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw12)
 - The idea of GaNN is to build a Feature Extractor, a Label Predictor, and a Domain Classifier;
-<div align=center><img src="https://pic2.zhimg.com/80/v2-f39c0c7219ce0fcb61c11f544e4bd9d9_1440w.jpg" width="600"/></div>
+<div align=center><img src="https://pabebezz.github.io/article/2d45afe4/%E5%9F%9F%E5%AF%B9%E6%8A%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.png" width="600"/></div>
 
-- Label predictor: 
+- Label predictor: match labels for source data, and predict labels for target data;
+- Feature extractor: extract image features, maximize label classification accuracy and minimize domain classification accuracy;
+- Domain classifier: decide which domain is the feature coming from (from source or target). Target domain is set to 1, and source domain is set to 0;
+- Target images and source images are preprocessed by PIL: [preprocess code]()
+- Becasue of limited GPU capacity, the whole network is not trained. The structure works according to a trail with limited data.
