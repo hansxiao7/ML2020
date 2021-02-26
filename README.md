@@ -158,3 +158,11 @@ generated_images = generator(noise, training=True)
 real_output = discriminator(real_images, training=True)
 fake_output = discriminator(generated_images, training=True)
 ```
+
+## HW12 - Transfer Learning - Domain Adverserial Neural Network
+- This home is use DaNN to train unlabelled target data with labelled source data;
+- Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw12)
+- The idea of GaNN is to build a Feature Extractor, a Label Predictor, and a Domain Classifier;
+<div align=center><img src="https://pic2.zhimg.com/80/v2-f39c0c7219ce0fcb61c11f544e4bd9d9_1440w.jpg" width="600"/></div>
+
+- Label predictor: 
