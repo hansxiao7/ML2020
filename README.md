@@ -168,5 +168,5 @@ fake_output = discriminator(generated_images, training=True)
 - Label predictor: match labels for source data, and predict labels for target data;
 - Feature extractor: extract image features, maximize label classification accuracy and minimize domain classification accuracy;
 - Domain classifier: decide which domain is the feature coming from (from source or target). Target domain is set to 1, and source domain is set to 0;
-- Target images and source images are preprocessed by PIL: [preprocess code]()
-- Becasue of limited GPU capacity, the whole network is not trained. The structure works according to a trail with limited data.
+- Target images and source images are preprocessed by PIL: [preprocess code](https://github.com/hansxiao7/ML2020/blob/main/HW12/data_extract.py)
+- Becasue of limited GPU capacity, the whole network is not trained. The structure works according to a trail with limited data. The code is available for reference [here].(https://github.com/hansxiao7/ML2020/blob/main/HW12/DaNN.ipynb)
