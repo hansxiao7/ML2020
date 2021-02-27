@@ -172,4 +172,4 @@ fake_output = discriminator(generated_images, training=True)
 - Becasue of limited GPU capacity, the whole network is trained with 15 epochs. The structure works according to a trail with limited data. The code is available for reference [here].(https://github.com/hansxiao7/ML2020/blob/main/HW12/DaNN.ipynb)
 - The labelling accuracy for source data is 99.0% (4951/5000);
 - For the first 20 target images, the predicted labels are shown in the following image. Only 35% (7/20) are predicted correctly.
-<div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW12/pred_results.PNG" width="600"/></div>
+<div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW12/pred_results.PNG" width="1000"/></div>
