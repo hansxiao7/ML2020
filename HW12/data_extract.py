@@ -9,6 +9,7 @@ train_data = []
 train_label = []
 for i in range(10):
     x = []
+    y = []
     curr_train_dir = train_dir + str(i) + '/'
 
     for file in os.listdir(curr_train_dir):
@@ -17,9 +18,12 @@ for i in range(10):
         img = img.convert(mode='L')
         img_array = tf.keras.preprocessing.image.img_to_array(img) / 255.
 
-        x.append(img_array)
+        label_array = np.zeros(shape=(10, ))
+        label_array[i] = 1
 
-    y = np.ones(len(x)) * i
+        x.append(img_array)
+        y.append(label_array)
+
     train_data.extend(x)
     train_label.extend(y)
 
