@@ -186,7 +186,7 @@ fake_output = discriminator(generated_images, training=True)
 - Task 2: digit recognition on SVHN dataset;
 - The image size for MNIST is (28, 28, 1), and the image size for SVHN is (32, 32, 3). [Data preprocessing](https://github.com/hansxiao7/ML2020/blob/main/HW14/data_transform.py) is conducted first to transfer SVHN data with the same dimension of MNIST data. An ImageNet-like network is built for these two tasks;
 - Without EWS, the cross-entropy loss table for these two tasks is shown as follows. The model is firstly trained with MNIST data, then trained with SVHN data.
-|   | Test on MNIST | Test on SVHN |
+|  - | Test on MNIST | Test on SVHN |
 |     :---:      |     :---:      |     :---:      |
 |Random Init.   | 2.94     | 2.51    |
 | MNIST Trained   | 0.09     | 11.89   |
