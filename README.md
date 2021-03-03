@@ -178,6 +178,7 @@ fake_output = discriminator(generated_images, training=True)
 - This homework is to apply meta learning. The original task is to change codes with 2nd order gradients to codes with 1st order gradient approximiation;
 - The original codes are available here: [for regression](https://colab.research.google.com/drive/1MFJwRdOTefd6UOYRsNjdc7BWuB7Qe3lY), [for few-shot classification](https://colab.research.google.com/drive/1OcF5TQCCd7WNK0cbXyzYxAzWpMKW_r8B);
 - A MAML code with 1st order gradient for regression can be seen [here](https://github.com/hansxiao7/ML2020/blob/main/HW13/MAML_regression.ipynb);
+- Meta learning code with reptile gradient: [here](https://github.com/hansxiao7/ML2020/blob/main/HW13/reptile_regression.ipynb);
 - Reference: [Paper repro: Deep Metalearning using “MAML” and “Reptile”](https://towardsdatascience.com/paper-repro-deep-metalearning-using-maml-and-reptile-fd1df1cc81b0)
 
 ## HW14 - Lifelong Learning with EWS
