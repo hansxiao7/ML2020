@@ -187,7 +187,7 @@ fake_output = discriminator(generated_images, training=True)
 - The image size for MNIST is (28, 28, 1), and the image size for SVHN is (32, 32, 3). [Data preprocessing](https://github.com/hansxiao7/ML2020/blob/main/HW14/data_transform.py) is conducted first to transfer SVHN data with the same dimension of MNIST data. An ImageNet-like network is built for these two tasks;
 - Without EWS, the cross-entropy loss table for these two tasks is shown as follows. The model is firstly trained with MNIST data, then trained with SVHN data.
 
-|  Trained Models | Test on MNIST | Test on SVHN |
+|   | Test on MNIST | Test on SVHN |
 |     :---:      |     :---:      |     :---:      |
 |Random Init.   | 2.94     | 2.51    |
 | MNIST Trained   | 0.09     | 11.89   |
@@ -195,7 +195,7 @@ fake_output = discriminator(generated_images, training=True)
 
 - With EWS and learning rate for EWS = 10, the cross-entropy loss table for these two tasks is shown as follows:
 
-|  Trained Models| Test on MNIST | Test on SVHN |
+|  | Test on MNIST | Test on SVHN |
 |     :---:      |     :---:      |     :---:      |
 |Random Init.   | 2.54    | 2.64    |
 | MNIST Trained   | 0.08     | 14.82   |
@@ -203,8 +203,10 @@ fake_output = discriminator(generated_images, training=True)
 
 - With EWS and learning rate for EWS = 0.001, the cross-entropy loss table for these two tasks is shown as follows:
 
-|  Trained Models | Test on MNIST | Test on SVHN |
+|   | Test on MNIST | Test on SVHN |
 |     :---:      |     :---:      |     :---:      |
 |Random Init.   | 2.91    | 2.65    |
 | MNIST Trained   | 0.07     | 15.12   |
 | SVHN Trained     | 0.41  | 0.93  |
+
+- Codes are available [here](https://github.com/hansxiao7/ML2020/blob/main/HW14/life_long_learning.ipynb);
