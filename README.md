@@ -179,3 +179,29 @@ fake_output = discriminator(generated_images, training=True)
 - The original codes are available here: [for regression](https://colab.research.google.com/drive/1MFJwRdOTefd6UOYRsNjdc7BWuB7Qe3lY), [for few-shot classification](https://colab.research.google.com/drive/1OcF5TQCCd7WNK0cbXyzYxAzWpMKW_r8B);
 - A MAML code with 1st order gradient for regression can be seen [here](https://github.com/hansxiao7/ML2020/blob/main/HW13/MAML_regression.ipynb);
 - Reference: [Paper repro: Deep Metalearning using “MAML” and “Reptile”](https://towardsdatascience.com/paper-repro-deep-metalearning-using-maml-and-reptile-fd1df1cc81b0)
+
+## HW14 - Lifelong Learning with EWS
+- This homework is to use EWS to achieve lifelong learning; 
+- Task 1: digit recognition on MNIST dataset;
+- Task 2: digit recognition on SVHN dataset;
+- The image size for MNIST is (28, 28, 1), and the image size for SVHN is (32, 32, 3). [Data preprocessing](https://github.com/hansxiao7/ML2020/blob/main/HW14/data_transform.py) is conducted first to transfer SVHN data with the same dimension of MNIST data. An ImageNet-like network is built for these two tasks;
+- Without EWS, the cross-entropy loss table for these two tasks is shown as follows. The model is firstly trained with MNIST data, then trained with SVHN data.
+|   | Test on MNIST | Test on SVHN |
+|     :---:      |     :---:      |     :---:      |
+|Random Init.   | 2.94     | 2.51    |
+| MNIST Trained   | 0.09     | 11.89   |
+| SVHN Trained     | 2.43  | 0.69  |
+
+- With EWS and learning rate for EWS = 10, the cross-entropy loss table for these two tasks is shown as follows:
+|   | Test on MNIST | Test on SVHN |
+|     :---:      |     :---:      |     :---:      |
+|Random Init.   | 2.54    | 2.64    |
+| MNIST Trained   | 0.08     | 14.82   |
+| SVHN Trained     | 0.09  | 4.24  |
+
+- With EWS and learning rate for EWS = 0.001, the cross-entropy loss table for these two tasks is shown as follows:
+|   | Test on MNIST | Test on SVHN |
+|     :---:      |     :---:      |     :---:      |
+|Random Init.   | 2.91    | 2.65    |
+| MNIST Trained   | 0.07     | 15.12   |
+| SVHN Trained     | 0.41  | 0.93  |
