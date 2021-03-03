@@ -160,7 +160,7 @@ fake_output = discriminator(generated_images, training=True)
 ```
 
 ## HW12 - Transfer Learning - Domain Adverserial Neural Network
-- This home is use DaNN to train unlabelled target data with labelled source data;
+- This homework is use DaNN to train unlabelled target data with labelled source data;
 - Kaggle link: [here](https://www.kaggle.com/c/ml2020spring-hw12)
 - The idea of GaNN is to build a Feature Extractor, a Label Predictor, and a Domain Classifier;
 <div align=center><img src="https://pabebezz.github.io/article/2d45afe4/%E5%9F%9F%E5%AF%B9%E6%8A%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.png" width="600"/></div>
@@ -173,3 +173,9 @@ fake_output = discriminator(generated_images, training=True)
 - The labelling accuracy for source data is 99.0% (4951/5000);
 - For the first 20 target images, the predicted labels are shown in the following image. Only 35% (7/20) are predicted correctly.
 <div align=center><img src="https://github.com/hansxiao7/ML2020/blob/main/HW12/pred_results.PNG" width="1000"/></div>
+
+## HW13 - Meta Learning
+- This homework is to apply meta learning. The original task is to change codes with 2nd order gradients to codes with 1st order gradient approximiation;
+- The original codes are available here: [for regression](https://colab.research.google.com/drive/1MFJwRdOTefd6UOYRsNjdc7BWuB7Qe3lY), [for few-shot classification](https://colab.research.google.com/drive/1OcF5TQCCd7WNK0cbXyzYxAzWpMKW_r8B);
+- A MAML code with 1st order gradient for regression can be seen [here](https://github.com/hansxiao7/ML2020/blob/main/HW13/MAML_regression.ipynb);
+- Reference: [Paper repro: Deep Metalearning using “MAML” and “Reptile”](https://towardsdatascience.com/paper-repro-deep-metalearning-using-maml-and-reptile-fd1df1cc81b0)
