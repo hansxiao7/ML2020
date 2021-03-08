@@ -106,7 +106,8 @@ Course website is (http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html), inclu
       Chinese: 他去看見瑪麗了嗎？
   - Network structure:
   <div align=center><img width="600" height="800" src="https://github.com/hansxiao7/ML2020/blob/main/HW8/Attention_model.png"/></div>
-- Method 3: Transformer (Will do later)
+- Method 3: Transformer
+  - Reference: [here](https://www.tensorflow.org/tutorials/text/transformer)
 
 ## HW9 - Image Autoencoder with Unsupervised Learning
 - This homework is to classify images with unlabelled data. Images are classfied with 'Natural View' and 'No Natural View';
@@ -211,3 +212,6 @@ fake_output = discriminator(generated_images, training=True)
 | SVHN Trained     | 0.41  | 0.93  |
 
 - Codes are available [here](https://github.com/hansxiao7/ML2020/blob/main/HW14/life_long_learning.ipynb);
+
+## HW15 - Reinforcement Learning
+- Homework can be found [here](https://colab.research.google.com/drive/1Q5H0NI5b_NrT1ZUxEuFMd8ASTbow55Qj).
